@@ -1,0 +1,37 @@
+.logo {
+    height: 75px;
+    width: 75px;
+    background-color: darkgray;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
